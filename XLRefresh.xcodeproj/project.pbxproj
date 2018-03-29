@@ -13,6 +13,16 @@
 		919BF67E206CF24A007B5B14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 919BF67D206CF24A007B5B14 /* Assets.xcassets */; };
 		919BF681206CF24A007B5B14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 919BF67F206CF24A007B5B14 /* LaunchScreen.storyboard */; };
 		919BF684206CF24A007B5B14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 919BF683206CF24A007B5B14 /* main.m */; };
+		919BF698206CF631007B5B14 /* XLRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 919BF68B206CF631007B5B14 /* XLRefreshComponent.m */; };
+		919BF699206CF631007B5B14 /* XLRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 919BF68C206CF631007B5B14 /* XLRefreshFooter.m */; };
+		919BF69A206CF631007B5B14 /* XLRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 919BF68D206CF631007B5B14 /* XLRefreshHeader.m */; };
+		919BF69B206CF631007B5B14 /* XLTestFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 919BF68E206CF631007B5B14 /* XLTestFooter.m */; };
+		919BF69C206CF631007B5B14 /* UIScrollView+XLRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 919BF68F206CF631007B5B14 /* UIScrollView+XLRefresh.m */; };
+		919BF69D206CF631007B5B14 /* XLTestHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 919BF690206CF631007B5B14 /* XLTestHeader.m */; };
+		919BF69E206CF631007B5B14 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 919BF691206CF631007B5B14 /* logo@2x.png */; };
+		919BF6A1206CF6E1007B5B14 /* UIScrollView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 919BF6A0206CF6E0007B5B14 /* UIScrollView+Common.m */; };
+		919BF6A4206CF6F2007B5B14 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 919BF6A3206CF6F2007B5B14 /* UIView+Frame.m */; };
+		919BF6A7206CF8FA007B5B14 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 919BF6A6206CF8FA007B5B14 /* CollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +36,25 @@
 		919BF680206CF24A007B5B14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		919BF682206CF24A007B5B14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		919BF683206CF24A007B5B14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		919BF68B206CF631007B5B14 /* XLRefreshComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLRefreshComponent.m; sourceTree = "<group>"; };
+		919BF68C206CF631007B5B14 /* XLRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLRefreshFooter.m; sourceTree = "<group>"; };
+		919BF68D206CF631007B5B14 /* XLRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLRefreshHeader.m; sourceTree = "<group>"; };
+		919BF68E206CF631007B5B14 /* XLTestFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTestFooter.m; sourceTree = "<group>"; };
+		919BF68F206CF631007B5B14 /* UIScrollView+XLRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+XLRefresh.m"; sourceTree = "<group>"; };
+		919BF690206CF631007B5B14 /* XLTestHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTestHeader.m; sourceTree = "<group>"; };
+		919BF691206CF631007B5B14 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		919BF692206CF631007B5B14 /* XLRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLRefreshHeader.h; sourceTree = "<group>"; };
+		919BF693206CF631007B5B14 /* XLRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLRefreshFooter.h; sourceTree = "<group>"; };
+		919BF694206CF631007B5B14 /* XLRefreshComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLRefreshComponent.h; sourceTree = "<group>"; };
+		919BF695206CF631007B5B14 /* XLTestHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTestHeader.h; sourceTree = "<group>"; };
+		919BF696206CF631007B5B14 /* UIScrollView+XLRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+XLRefresh.h"; sourceTree = "<group>"; };
+		919BF697206CF631007B5B14 /* XLTestFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTestFooter.h; sourceTree = "<group>"; };
+		919BF69F206CF6E0007B5B14 /* UIScrollView+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Common.h"; sourceTree = "<group>"; };
+		919BF6A0206CF6E0007B5B14 /* UIScrollView+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Common.m"; sourceTree = "<group>"; };
+		919BF6A2206CF6F2007B5B14 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		919BF6A3206CF6F2007B5B14 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		919BF6A5206CF8FA007B5B14 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		919BF6A6206CF8FA007B5B14 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +87,42 @@
 		919BF673206CF24A007B5B14 /* XLRefresh */ = {
 			isa = PBXGroup;
 			children = (
+				919BF68A206CF631007B5B14 /* XLRefresh */,
 				919BF674206CF24A007B5B14 /* AppDelegate.h */,
 				919BF675206CF24A007B5B14 /* AppDelegate.m */,
 				919BF677206CF24A007B5B14 /* ViewController.h */,
 				919BF678206CF24A007B5B14 /* ViewController.m */,
+				919BF6A5206CF8FA007B5B14 /* CollectionViewController.h */,
+				919BF6A6206CF8FA007B5B14 /* CollectionViewController.m */,
+				919BF69F206CF6E0007B5B14 /* UIScrollView+Common.h */,
+				919BF6A0206CF6E0007B5B14 /* UIScrollView+Common.m */,
+				919BF6A2206CF6F2007B5B14 /* UIView+Frame.h */,
+				919BF6A3206CF6F2007B5B14 /* UIView+Frame.m */,
 				919BF67A206CF24A007B5B14 /* Main.storyboard */,
 				919BF67D206CF24A007B5B14 /* Assets.xcassets */,
 				919BF67F206CF24A007B5B14 /* LaunchScreen.storyboard */,
 				919BF682206CF24A007B5B14 /* Info.plist */,
 				919BF683206CF24A007B5B14 /* main.m */,
+			);
+			path = XLRefresh;
+			sourceTree = "<group>";
+		};
+		919BF68A206CF631007B5B14 /* XLRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				919BF696206CF631007B5B14 /* UIScrollView+XLRefresh.h */,
+				919BF68F206CF631007B5B14 /* UIScrollView+XLRefresh.m */,
+				919BF694206CF631007B5B14 /* XLRefreshComponent.h */,
+				919BF68B206CF631007B5B14 /* XLRefreshComponent.m */,
+				919BF692206CF631007B5B14 /* XLRefreshHeader.h */,
+				919BF68D206CF631007B5B14 /* XLRefreshHeader.m */,
+				919BF693206CF631007B5B14 /* XLRefreshFooter.h */,
+				919BF68C206CF631007B5B14 /* XLRefreshFooter.m */,
+				919BF690206CF631007B5B14 /* XLTestHeader.m */,
+				919BF695206CF631007B5B14 /* XLTestHeader.h */,
+				919BF691206CF631007B5B14 /* logo@2x.png */,
+				919BF697206CF631007B5B14 /* XLTestFooter.h */,
+				919BF68E206CF631007B5B14 /* XLTestFooter.m */,
 			);
 			path = XLRefresh;
 			sourceTree = "<group>";
@@ -130,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				919BF681206CF24A007B5B14 /* LaunchScreen.storyboard in Resources */,
+				919BF69E206CF631007B5B14 /* logo@2x.png in Resources */,
 				919BF67E206CF24A007B5B14 /* Assets.xcassets in Resources */,
 				919BF67C206CF24A007B5B14 /* Main.storyboard in Resources */,
 			);
@@ -142,9 +199,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				919BF6A1206CF6E1007B5B14 /* UIScrollView+Common.m in Sources */,
+				919BF69B206CF631007B5B14 /* XLTestFooter.m in Sources */,
+				919BF69C206CF631007B5B14 /* UIScrollView+XLRefresh.m in Sources */,
+				919BF699206CF631007B5B14 /* XLRefreshFooter.m in Sources */,
+				919BF69D206CF631007B5B14 /* XLTestHeader.m in Sources */,
 				919BF679206CF24A007B5B14 /* ViewController.m in Sources */,
+				919BF698206CF631007B5B14 /* XLRefreshComponent.m in Sources */,
 				919BF684206CF24A007B5B14 /* main.m in Sources */,
+				919BF6A7206CF8FA007B5B14 /* CollectionViewController.m in Sources */,
+				919BF69A206CF631007B5B14 /* XLRefreshHeader.m in Sources */,
 				919BF676206CF24A007B5B14 /* AppDelegate.m in Sources */,
+				919BF6A4206CF6F2007B5B14 /* UIView+Frame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +347,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 9AQVJTZ5M6;
 				INFOPLIST_FILE = XLRefresh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xingl.XLRefresh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -297,6 +364,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = XLRefresh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xingl.XLRefresh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
